@@ -1,0 +1,9 @@
+Usage:
+
+python NN_Visualizer.py ~/Desktop/best_evolved_genome.dat ~/Desktop/best_evolved_genome.dot
+
+For Compressed Graphs (Hidden Nodes placed by rank only.):
+dot -Tpng best_evolved_genome.dot -o best_evolved_genome.png
+
+For graphs with each rank on a separate line:
+dot -Tpng -Gnewrank best_evolved_genome.dot -o best_evolved_genome.png
