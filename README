@@ -7,3 +7,12 @@ dot -Tpng best_evolved_genome.dot -o best_evolved_genome.png
 
 For graphs with each rank on a separate line:
 dot -Tpng -Gnewrank best_evolved_genome.dot -o best_evolved_genome.png
+
+Test Case:
+
+If you simply want to get started with some test data, you can use the .dat file included in the test_data folder and use the following commands.
+
+python NN_Visualizer.py ./test_data/evolved_genome.dat ./test_data/evolved_genome.dot
+dot -Tpng -Gnewrank ./test_data/evolved_genome.dat ./test_data/evolved_genome.png
+
+This will create a massive png file, but should give you a rough idea of the type of plot this package currently generates.
