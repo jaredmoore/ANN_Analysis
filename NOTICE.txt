@@ -1,0 +1,8 @@
+ANN_Analysis
+
+Copyright 2013 Jared M. Moore
+
+Contributers: Jared M. Moore 
+
+Released under the Apache License, Version 2.0.  For more information, see
+LICENSE.txt
